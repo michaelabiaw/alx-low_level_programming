@@ -1,7 +1,6 @@
 #include<stdio.h>
 int main(void) 
 {
-	
 	char c;
 	int i;
 	long int li;
@@ -15,5 +14,5 @@ int main(void)
     printf("Size of long int: %lu bytes\n", sizeof(li));
     printf("Size of long long int: %lu byte\n", sizeof(lli));
     printf("Size of float: %zu byte\n", sizeof(f));
-    return 0;
+    return (0);
 }

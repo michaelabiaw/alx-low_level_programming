@@ -5,7 +5,7 @@ int main(void)
 	char c;
 	int i;
 	long int li;
-	lon long int lli;
+	long long int lli;
 	float f;
    
 

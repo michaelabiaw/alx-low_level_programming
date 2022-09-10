@@ -8,10 +8,14 @@
 int main(void)
 {
 	char j;
+
 	for (j = 'b'; j <= 'q'; j++)
 	putchar(j);
+
 	for (j = 'B'; j <= 'Q'; j++)
 	putchar(j);
+
 	putchar('\n');
+
 	return (0);
 }

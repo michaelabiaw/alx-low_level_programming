@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include "main.h"
+#ifndef main_h
+#define main_h
 
 /**
  * main - Entry point
@@ -19,3 +21,4 @@ int main(void)
 
 	return (0);
 }
+

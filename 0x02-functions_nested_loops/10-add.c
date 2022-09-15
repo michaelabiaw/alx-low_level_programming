@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_to_98 - print two integers and return the result
+ * 10-add.c - print two integers and return the result
  * @a: argument for the function
  * @b: argument for the function
  *

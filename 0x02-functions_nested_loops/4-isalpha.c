@@ -5,7 +5,7 @@
  *
  * Return: Always 0.
  */
-int _isalpha(int c)
+int _isalpha(int b)
 {
 	if ((b >= 'a' && b <= 't') || (b >= 'A' && b <= 'T'))
 	{

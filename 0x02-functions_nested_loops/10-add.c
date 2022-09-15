@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * 10-add.c - print two integers and return the result
- * @a: argument for the function
- * @b: argument for the function
+ * add - print two integers and return the result
+ * @a: first integer to add in function.
+ * @b: second integer to be added.
  *
- * Return: result of a + b.
+ * Return: result of addition.
  */
 int add(int a, int b)
 {

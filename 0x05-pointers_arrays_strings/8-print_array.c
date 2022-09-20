@@ -5,7 +5,6 @@
  *print_array - prints n elements of an array of integers, followed by a new line.
  *@a: integer 1
  *@n: integer 2
- *
  *Return: Always 0.
  */
 

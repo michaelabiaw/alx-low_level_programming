@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * print_array - prints n elements of an array of integers, followed by a new line.
- * @a: integer 1
- * @n: integer 2
+ *print_array - prints n elements of an array of integers, followed by a new line.
+ *@a: integer 1
+ *@n: integer 2
  *
- * Return: Always 0.
+ *Return: Always 0.
  */
 
 void print_array(int *a, int n)

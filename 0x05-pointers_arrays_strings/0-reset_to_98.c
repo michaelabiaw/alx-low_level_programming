@@ -3,7 +3,7 @@
 
 /**
  * reset_to_98 - reset value to 98
- *
+ *@n: integer
  * Return: Always 0.
  */
 

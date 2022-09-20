@@ -4,8 +4,7 @@
 
 /**
  *print_rev - prints a string, in reverse, followed by a new line
- *
- *@str: string
+ *@s: string
  * Return: Always 0.
  */
 

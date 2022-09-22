@@ -21,11 +21,5 @@ char *_strcat(char *dest, char *src)
 	while (*src != 0)
 		*ptr++ = *src++;
 	*ptr = 0;
-	
-	/* concateneate char dest, cha src */
-	strcat(s1, s2);
-	puts(s1);
-   	puts(s2);
-
-   	return 0
+   	return (dest);
 }

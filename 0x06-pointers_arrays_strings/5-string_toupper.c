@@ -3,11 +3,11 @@
 
 /**
  * string_toupper - function that changes lowercase to uppercase
- *@s: string to be changed
+ *@str: string to be changed
  * Return: Always 0.
  */
 
-char *string_toupper(char *s)
+char *string_toupper(char *str)
 {
 	int index = 0;
 

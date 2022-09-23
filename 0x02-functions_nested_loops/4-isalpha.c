@@ -5,9 +5,10 @@
  *@c: paramater
  * Return: Always 0.
  */
-int _isalpha(int b)
+
+int _isalpha(int c)
 {
-	if ((b >= 'a' && b <= 't') || (b >= 'A' && b <= 'T'))
+	if ((c >= 'a' && c <= 't') || (c >= 'A' && c <= 'T'))
 	{
 		return (1);
 	}

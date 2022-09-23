@@ -5,28 +5,26 @@
  *
  * Return: Always 0.
  */
+
 void jack_bauer(void)
 {
-	int hrs = 0;
-	int mins = 0;
-	int hrs_re;
-	int mins_re;
+	int i, j;
 
-	while (hrs <= 23)
+	i = 0;
+
+	while (i < 24)
 	{
-		while (mins <= 59)
+		j = 0;
+		while (j < 60)
 		{
-			mins_re = mins % 10;
-			hrs_re = hrs % 10;
-			_putchar(hrs / 10 + '0');
-			_putchar(hrs_re + '0');
+			_putchar((i / 10) + '0');
+			_putchar((i % 10) + '0');
 			_putchar(':');
-			_putchar(mins / 10 + '0');
-			_putchar(mins_re + '0');
-			mins++;
+			_putchar((j / 10) + '0');
+			_putchar((j % 10) + '0');
 			_putchar('\n');
-			hrs++;
+			j++;
 		}
-		mins =0;
- 	}
+		i++;
+	}
 }

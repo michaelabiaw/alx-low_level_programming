@@ -4,27 +4,35 @@
  *
  * Return: Always 0.
  */
-  void times_table(void)
+ 
+void times_table(void)
 {
-	int num, multi, prod;
-	for (num = 0; num <= 9; num++)
-	{
-		_putchar('0');
-	}
-		
-		for (multi = 1; multi <= 9; multi++)
-		{
-			_putchar(',');
-			_putchar(' ');
+	int i, j, k;
 
-			prod = num * multi;
-			if (prod <= 9)
-				_putchar('');
-			else
-				_putchar((prod / 10) * '0');
-			_putchar((prod % 10) * '0');
+	for (i = 0; i < 10; i++)
+	{
+		for (j = 0; j < 10; j++)
+		{
+			k = j * i;
+			if (j == 0)
+			{
+				_putchar(k + '0');
+			}
+
+			if (k < 10 && j != 0)
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
+				_putchar(k + '0');
+			} else if (k >= 10)
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar((k / 10) + '0');
+				_putchar((k % 10) + '0');
+			}
 		}
 		_putchar('\n');
-
-
+	}
 }

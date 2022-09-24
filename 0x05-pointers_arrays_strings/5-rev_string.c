@@ -1,12 +1,3 @@
-#include "main.h"
-#include <stdio.h>
-
-/**
- *rev_string - function that reverses a string
- *s: string
- * Return: Always 0.
- */
-
 #include <stdio.h>
 #include "main.h"
 
@@ -14,7 +5,7 @@
 * rev_string - Reverses a string
 * @s: string to be reversed
 *
-* Return: nothing
+* * Return: Always 0
 */
 
 void rev_string(char *s)

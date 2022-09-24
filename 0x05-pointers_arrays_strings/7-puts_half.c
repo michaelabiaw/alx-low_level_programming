@@ -8,12 +8,6 @@
  * Return: Always 0.
  */
 
-/**
- * puts_half - prints a string
- * @str: string to print
- *
- * Return: nothing
- */
 
 void puts_half(char *str)
 {
